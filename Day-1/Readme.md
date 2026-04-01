@@ -20,5 +20,16 @@ These compond type are essential for memory efficiency management and advanced d
 - Modern practice : use for value that might not exist and understanding how to type deduction works with pointers and reference std::optional 
 ============================================================================================================================================
 === Personal Notes ===
-- always start assigne value like this a{value} or a = {value} 
-- 
+- always start assign value like this a{value} or a = {value} 
+- void : does something but no return needed 
+- int return result and can be captured with return 
+- creating variable there are tow type :
+  Brace init =>
+  int x {} brace  
+  std::string message{"the actual message"} 
+  Copy init =>
+  int num = 100 ;
+  std::string message = "the actual message"
+  ==> both work but its safer to use the brace init 
+  
+
