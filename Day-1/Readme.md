@@ -31,5 +31,5 @@ These compond type are essential for memory efficiency management and advanced d
   int num = 100 ;
   std::string message = "the actual message"
   ==> both work but its safer to use the brace init 
-  
+
 
