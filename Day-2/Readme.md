@@ -32,6 +32,6 @@ for situation where value might not exist , c++ often uses std::optional instead
 for memory management smart pointer like std::unique_ptr and std::shared_ptr are prefered over raw pointer to help prevent memory leak 
 
 ### Reminder ### 
-- Pass by value
+- Pass by value useless cant modify value 
 - Pass by reference => int& p -> p is a nickname for some existing int
 - Pass by address => int* p -> p is a variable that holds an address
